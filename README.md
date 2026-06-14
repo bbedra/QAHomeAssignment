@@ -36,3 +36,13 @@ You can run the tests in pycharm or with the command:
 ```bash
 pytest
 ```
+
+To run UI tests use this command:
+```bash
+pytest -k e2e
+```
+
+To run API tests use this command:
+```bash
+pytest -k api
+```
