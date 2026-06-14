@@ -15,7 +15,7 @@ load_dotenv(ROOT / ".env")
 def pytest_configure(config):
     timestamp = datetime.now().strftime(TIMESTAMP_FORMAT)
     report_dir = REPORTS_DIR / str(timestamp)
-    report_dir.mkdir(exist_ok=True)
+    report_dir.mkdir(exist_ok=True, parents=True)
 
     config.option.htmlpath = str(
         report_dir / f"{timestamp}.html"
