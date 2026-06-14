@@ -1,5 +1,5 @@
 # QA Home Assignment
-
+## Description
 Simple test framework created for a home assignment.
 It uses pytest as the base of the framework and pytest-html for creating reports.
 
@@ -46,3 +46,7 @@ To run API tests use this command:
 ```bash
 pytest -k api
 ```
+
+## Additional information
+Test reports, logs and screenshots are saved in the reports directory.
+Each run creates a separate directory where all relevant artifacts are stored.
