@@ -1,3 +1,9 @@
+# Execution results
+- TEST-01 - Failed; Found bugs: BUG-01, BUG-02, BUG-03
+- TEST-02 - Failed; Found bugs: BUG-04
+- TEST-03 - Failed; Found bugs: BUG-05
+
+
 # Found defects
 
 ## BUG-01 Team names order has changed after placing the bet
